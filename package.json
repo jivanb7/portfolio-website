@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node": "^23.7.0"
+    "node": "^23.7.0",
+    "react-icons": "^5.4.0"
   }
 }
