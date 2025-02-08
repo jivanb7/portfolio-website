@@ -1,5 +1,5 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiTypescript, SiPython, SiPostgresql, SiRedux, SiReact } from "react-icons/si";
+import { FaGithub, FaLinkedin, FaGitAlt, FaDocker } from "react-icons/fa";
+import { SiHtml5, SiCss3, SiTailwindcss, SiJavascript, SiTypescript, SiPython, SiPostgresql, SiRedux, SiReact, SiHeroku, SiNetlify, SiRender } from "react-icons/si";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -45,16 +45,19 @@ export function Welcome() {
   const icons = [
     { Icon: SiHtml5, top: "10%", left: "15%" },
     { Icon: SiCss3, top: "20%", left: "70%" },
-    { Icon: SiTailwindcss, top: "10%", left: "50%" },
+    { Icon: SiTailwindcss, top: "8%", left: "55%" },
     { Icon: SiJavascript, top: "30%", left: "27%" },
-    { Icon: SiTypescript, top: "60%", left: "80%" },
-    { Icon: SiPython, top: "70%", left: "17%" },
-    { Icon: SiPostgresql, top: "80%", left: "60%" },
-    { Icon: SiRedux, top: "50%", left: "7%" },
-    { Icon: SiReact, top: "90%", left: "40%" },
+    { Icon: SiTypescript, top: "80%", left: "85%" },
+    { Icon: SiPython, top: "70%", left: "30%" },
+    { Icon: SiPostgresql, top: "75%", left: "65%" },
+    { Icon: SiRedux, top: "50%", left: "14%" },
+    { Icon: SiReact, top: "85%", left: "50%" },
+    { Icon: FaGitAlt, top: "10%", left: "84%" },
+    { Icon: FaDocker, top: "75%", left: "10%" }, 
+    { Icon: SiHeroku, top: "40%", left: "90%" }, 
+    { Icon: SiNetlify, top: "85%", left: "20%" }, 
+    { Icon: SiRender, top: "55%", left: "80%" }, 
   ];
-
-  
 
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-600 to-teal-600 text-white overflow-hidden">
@@ -69,12 +72,12 @@ export function Welcome() {
       </div>
 
       <div className="text-center relative z-10">
-        <div className="absolute left-54 flex space-x-18 bottom-100 text-4xl opacity-80 hover:opacity-100 transition-opacity">
+        <div className="absolute bottom-100 left-1/2 transform -translate-x-1/2 flex space-x-8 text-4xl opacity-90 hover:opacity-100 transition-opacity">
           <a
             href="https://github.com/jivanb7"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-200 transform transition duration-500 hover:scale-110"
+            className="hover:text-gray-200 transform transition duration-500 hover:scale-125"
           >
             <FaGithub />
           </a>
@@ -82,7 +85,7 @@ export function Welcome() {
             href="https://www.linkedin.com/in/jivan-b-42a571220"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-gray-200 transform transition duration-500 hover:scale-110"
+            className="hover:text-gray-200 transform transition duration-500 hover:scale-125"
           >
             <FaLinkedin />
           </a>
