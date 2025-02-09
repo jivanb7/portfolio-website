@@ -13,7 +13,7 @@ export function Welcome() {
         <SocialLinks />
         <div className="p-6 md:p-12 max-w-3xl mx-auto text-center space-y-4">
           <h1 className="text-5xl font-extrabold tracking-tight leading-snug md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-amber-300 via-teal-400 to-purple-400">
-            Jivan Bal
+            Hi, I am Jivan Bal
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-gray-300">Software Engineer</p>
           <p className="mt-5 text-lg md:text-xl text-gray-200">Crafting code with creativity, one project at a time.</p>
