@@ -6,6 +6,8 @@ import { ContactForm } from "../welcome/contactForm";
 export function Welcome() {
   const [showForm, setShowForm] = useState(false);
 
+  // Add another section for additional information and resume!
+  
   return (
     <main className="relative min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-600 to-teal-600 text-white overflow-hidden">
       <FloatingIcons />
