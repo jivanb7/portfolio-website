@@ -19,7 +19,7 @@ export function Welcome() {
           </h1>
           <p className="text-2xl md:text-3xl font-semibold text-gray-300">Software Engineer</p>
           <p className="mt-5 text-lg md:text-xl text-gray-200">Crafting code with creativity, one bug at a time.</p>
-          <button className="cursor-pointer mt-10 px-8 py-4 bg-gradient-to-r from-pink-600 to-indigo-600 text-white text-lg font-semibold rounded-full shadow-xl transform transition duration-300 hover:scale-105" onClick={() => setShowForm(true)}>
+          <button className="cursor-pointer mt-10 px-8 py-4 bg-gradient-to-r from-pink-600 to-indigo-600 text-white text-lg font-semibold rounded-full shadow-xl transform transition duration-300 hover:scale-105 hover:from-purple-600 hover:to-yellow-500" onClick={() => setShowForm(true)}>
             Let's Connect
           </button>
         </div>

@@ -50,7 +50,7 @@ export function ContactForm({ setShowForm }: ContactFormProps) {
             <label htmlFor="message" className="block text-lg text-white">Message</label>
             <textarea name="message" id="message" rows={4} placeholder="Enter your message" className="w-full px-4 py-2 mt-2 bg-gray-200 rounded-lg text-gray-700 border-2 border-gray-300 focus:outline-none focus:ring-2 focus:ring-indigo-500" required></textarea>
           </div>
-          <button type="submit" className="w-full py-3 bg-gradient-to-r from-pink-600 to-indigo-600 text-white font-semibold rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-purple-600 hover:to-yellow-500">
+          <button type="submit" className="cursor-pointer w-full py-3 bg-gradient-to-r from-pink-600 to-indigo-600 text-white font-semibold rounded-lg shadow-md transform transition duration-300 hover:scale-105 hover:bg-gradient-to-r hover:from-purple-600 hover:to-yellow-500">
             Send Message
           </button>
         </form>
